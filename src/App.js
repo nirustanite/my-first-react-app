@@ -3,14 +3,22 @@ import logo from './logo.svg';
 import './App.css';
 import Title from "./components/Title";
 import LightSwitch from "./components/LightSwitch";
+import UserBoard from "./components/UserBoard";
+import DisplayClock from "./components/displayClock"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <main>
-          <Title content ="Hello React"/>
+          <Title content="Hello React"/>
           <LightSwitch />
+          <div>
+            <UserBoard />
+          </div>
+          <div>
+            <DisplayClock />
+          </div>
         </main>
 
         <header className="App-header">
